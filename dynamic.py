@@ -11,7 +11,9 @@ TWILIO_NUMBER = os.environ.get('TWILIO_NUMBER')
 app = Flask(__name__)
 
 callers = {
-	"+19253304141": "Katie",
+	"+19251111111": "Katie",
+	"+19252222222": "Walter",
+	"+19253333333": "Megan"
 }
 
 @app.route("/", methods=["GET", "POST"])

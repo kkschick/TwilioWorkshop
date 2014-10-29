@@ -14,6 +14,6 @@ number_to_text = "+1XXXXXXXXXX"
 
 message = client.messages.create(from_=TWILIO_NUMBER,
                                         to=number_to_text,
-                                        body="I'm an app!")
+                                        body="Twilio is working!")
 
 print message.sid
